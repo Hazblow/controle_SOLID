@@ -45,7 +45,7 @@ export const createDataSourceConfigBase = (): DataSourceOptions => {
     logging: false,
     migrationsTableName: 'migration',
     migrations: ['src/modules/database/migration/*.js', 'dist/src/modules/database/migration/*.js'],
-    synchronize: synchronize,
+    synchronize: true,
   };
 };
 
